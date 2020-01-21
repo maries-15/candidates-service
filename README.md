@@ -17,4 +17,5 @@ a [Sails v1](https://sailsjs.com) application - Sails v1.2.3.
 
 Populate the local sails database in order to let the angular side project run with initial data since there is not an interface to add candidates.
 
-* Open [file with curl requests](https://github.com/maries-15/candidates-service/blob/master/curl-request.txt) and run the requests from postman.
+* Download [file with curl requests](https://github.com/maries-15/candidates-service/blob/master/Candidates.postman_collection.json).
+* Import the file in postam and run every request (`4`) to create candidates.
