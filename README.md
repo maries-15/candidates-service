@@ -1,26 +1,20 @@
 # candidates-service
 
-a [Sails v1](https://sailsjs.com) application
+a [Sails v1](https://sailsjs.com) application - Sails v1.2.3.
 
+## Install Project
 
-### Links
+* Install `node 12.14.1`.
+* Run `npm install sails -g` to install sails js.
+* Navigate to folder project and run `npm install`.
 
-+ [Sails framework documentation](https://sailsjs.com/get-started)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
+## Development server
 
+* Run `sails lift`, it will ask for an option to run the server, choose option 1 `alter`.
+* Navigate to `http://localhost:1337/` to check server is running.
 
-### Version info
+## Populated local sails database
 
-This app was originally generated on Sun Jan 19 2020 12:43:33 GMT-0500 (GMT-05:00) using Sails v1.2.3.
+Populate the local sails database in order to let the angular side project run with initial data since there is not an interface to add candidates.
 
-<!-- Internally, Sails used [`sails-generate@1.16.13`](https://github.com/balderdashy/sails-generate/tree/v1.16.13/lib/core-generators/new). -->
-
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
-
+* Open [file with curl requests](https://github.com/maries-15/candidates-service/blob/master/curl-request.txt) and run the requests from postman.
